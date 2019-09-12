@@ -1,10 +1,12 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Friend Finder Repo",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "pat": "0.0.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,5 +14,13 @@
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viant3/Friend-Finder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viant3/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/viant3/Friend-Finder#readme"
 }
